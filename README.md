@@ -1,2 +1,2 @@
-# GRID130-AIO2025-BLOG
-A blog for GRID130 of AIO2025
+# Blog site for group 130 AIO2025
+
