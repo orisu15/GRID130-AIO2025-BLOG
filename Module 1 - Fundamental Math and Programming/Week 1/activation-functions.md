@@ -30,7 +30,7 @@ $$\text{sigmoid}(x) = \frac{1}{1+e^{-x}}$$
 
 **Code cài đặt sigmoid function:**
 
-```
+```python
 import math
 
 def calc_sig(x):
@@ -87,7 +87,7 @@ $$
 
 **Code cài đặt ReLU function:**
 
-```
+```python
 def calc_relu(x):
     """
     Tính hàm ReLU:
@@ -143,7 +143,7 @@ $$
 
 **Code cài đặt ELU function:**
 
-```
+```python
 import math
 
 def calc_elu(x):
