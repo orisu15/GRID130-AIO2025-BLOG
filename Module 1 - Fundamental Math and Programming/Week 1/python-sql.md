@@ -1,6 +1,10 @@
-# Python basic xây dựng câu lệnh query tái sử dụng
+# Python cơ bản và SQL
 
-Trong bài viết này mình sẽ hướng dẫn các bạn tạo câu lệnh query tái sử dụng nhiều lần.
+Nội dung kiến thức lập trình Python và SQL mình sẽ không đề cập tới ở trong bài viết này nữa vì có rất nhiều nội dung học đầu đủ và có sẵn về chúng rồi:
+- https://www.w3schools.com/python/default.asp
+- https://www.w3schools.com/sql/default.asp
+
+Thay vào đó,. trong bài viết này mình sẽ hướng dẫn các bạn tạo câu lệnh query tái sử dụng nhiều lần bằng cách định nghĩa hàm trong Python, có ứng dụng vòng lặp for.
 
 Trong hình dưới đây, các bạn thấy phần bộ lọc bên tay trái có rất nhiều loại lọc để cho người dùng dễ dàng tìm kiếm kết quả mình mong muốn. Người dùng chọn loại lọc mong muốn và phía dev sẽ cần phải xử lý các dữ liệu đó và trả về kết quả cho người dùng.
 
