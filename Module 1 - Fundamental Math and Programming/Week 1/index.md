@@ -1,9 +1,3 @@
----
-title: Week 1
-parent: Module 1 - Fundamental Math and Programming
-nav_order: 1
----
-
 # Week 1
 
 ## Nội dung học trong tuần:
