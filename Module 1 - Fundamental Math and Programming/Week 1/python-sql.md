@@ -4,7 +4,7 @@ Trong bài viết này mình sẽ hướng dẫn các bạn tạo câu lệnh qu
 
 Trong hình dưới đây, các bạn thấy phần bộ lọc bên tay trái có rất nhiều loại lọc để cho người dùng dễ dàng tìm kiếm kết quả mình mong muốn. Người dùng chọn loại lọc mong muốn và phía dev sẽ cần phải xử lý các dữ liệu đó và trả về kết quả cho người dùng.
 
-![image.png](attachment:df95ec11-3853-4779-916e-26d9c103f463:image.png)
+![image.png](imgs/products-filter.png)
 
 Dưới đây là minh họa cho việc sử dụng, chúng ta sẽ có rất nhiều hàm khác nhau cho từng loại, nếu bạn như sẽ thấy các dòng code mở và đóng kết nối trùng lặp rất nhiều gây ra dư thừa code. Thay vào đó tại sao ta không xây dựng 1 hàm tái sử dụng nhỉ?
 
