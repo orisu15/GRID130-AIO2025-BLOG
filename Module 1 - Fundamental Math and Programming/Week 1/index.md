@@ -33,7 +33,8 @@
     - Giải các bài tập
 
 ## Blogs
-Các bài blogs của nhóm bạn có thể tìm đọc theo đường dẫn bên dưới đây:
+Các bài blogs của nhóm trong Week 1 Module 1 bạn có thể tìm đọc theo đường dẫn bên dưới đây:
 
 1. [Kĩ năng tìm - đọc - lên kế hoạch research](research-skills.md)
-2. [Activation Functions](activation-functions.md)
+2. []
+3. [Activation Functions](activation-functions.md)
