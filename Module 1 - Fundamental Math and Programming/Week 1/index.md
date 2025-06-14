@@ -41,5 +41,5 @@ nav_order: 1
 ## Blogs
 Các bài blogs của nhóm bạn có thể tìm đọc theo đường dẫn bên dưới đây:
 
-1. [Kĩ năng tìm - đọc - lên kế hoạch research](activation_functions.md)
+1. [Kĩ năng tìm - đọc - lên kế hoạch research](research-skills.md)
 2. [Activation Functions](activation-functions.md)
