@@ -36,5 +36,5 @@
 Các bài blogs của nhóm trong Week 1 Module 1 bạn có thể tìm đọc theo đường dẫn bên dưới đây:
 
 1. [Kĩ năng tìm - đọc - lên kế hoạch research](research-skills.md)
-2. []
+2. [Python cơ bản và SQL](python-sql.md)
 3. [Activation Functions](activation-functions.md)
