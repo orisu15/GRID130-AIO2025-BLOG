@@ -2,6 +2,8 @@
 
 Trong học máy, khi xây dựng một mô hình phân loại, bạn không chỉ dừng lại ở việc huấn luyện xong mô hình rồi đánh giá bằng accuracy (độ chính xác). Bạn có tin rằng trên thực tế, có những bài toán mà accuracy cao nhưng mô hình lại hoạt động kém không?
 
+---
+
 ## 🎯 Accuracy không phải là hoàn hảo
 
 Trước hết, ta sẽ cùng tìm hiểu độ đo accuracy là gì nhé! Công thức của độ đo accuracy được định nghĩa như sau:
@@ -18,6 +20,8 @@ Giả sử bạn đang xây dựng một mô hình phát hiện bệnh hiếm g�
 
 Vậy về cơ bản, với tỉ lệ accuracy lên tới 99% nhưng mô hình này sẽ không có tác dụng thực tiễn nào. Đây chính là lúc các độ đo precision, recall và f1-score trở nên hữu dụng
 
+---
+
 ## 🔍 Confusion Matrix
  
 Trước khi đi vào các độ đo, bạn cần hiểu Confusion Matrix — một bảng thể hiện 4 loại kết quả mà mô hình phân loại có thể đưa ra:
@@ -31,6 +35,8 @@ Trước khi đi vào các độ đo, bạn cần hiểu Confusion Matrix — m�
 - FP: Dự đoán là Positive, thực tế là Negative, dự đoán sai
 - FN: Dự đoán là Negative, thực tế là Positive, dự đoán sai
 - TN: Dự đoán là Negative, thực tế là Negative, dự đoán đúng
+
+---
 
 ## 🎯 Precision
 
@@ -50,6 +56,8 @@ Bạn có thể hiểu Precision là trả lời cho câu hỏi: “Trong các m
 
 - Ví dụ: Hệ thống phát hiện thư rác - Bạn không muốn loại bỏ nhầm các thư bình thường nhưng lại bị mô hình coi là thư rác.
 
+---
+
 ## 🔎 Recall – Độ bao phủ
 
 Recall đo lường trong số những mẫu thực sự là Positive, mô hình phát hiện được bao nhiêu phần trăm.
@@ -68,6 +76,8 @@ Recall trả lời cho câu hỏi: “Trong tất cả người bị bệnh, tô
 
 - Ví dụ: Phát hiện bệnh nhân ung thư – bỏ sót một người có thể để lại hậu quả nghiêm trọng.
 
+---
+
 ## ⚖️ F1-score – Sự cân bằng giữa Precision và Recall
 Khi Precision và Recall kéo nhau theo hai hướng đối lập, F1-score là cách để cân bằng cả hai. Đây là trung bình điều hòa (harmonic mean) giữa Precision và Recall:
 
@@ -80,6 +90,8 @@ $$\text{f1-score} = \frac{2 * (\text{precision} * \text{recall})}{\text{precisio
 - Khi bạn cần cân bằng giữa Precision và Recall.
 
 - Phù hợp với các bài toán mất cân bằng dữ liệu (imbalanced classes).
+
+---
 
 ## Code triển khai
 
