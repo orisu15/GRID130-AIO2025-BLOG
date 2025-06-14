@@ -8,7 +8,7 @@ Trong hình dưới đây, các bạn thấy phần bộ lọc bên tay trái c�
 
 Dưới đây là minh họa cho việc sử dụng, chúng ta sẽ có rất nhiều hàm khác nhau cho từng loại, nếu bạn như sẽ thấy các dòng code mở và đóng kết nối trùng lặp rất nhiều gây ra dư thừa code. Thay vào đó tại sao ta không xây dựng 1 hàm tái sử dụng nhỉ?
 
-![image.png](attachment:0ee078b4-1df3-4877-8ed7-0b720d82c624:image.png)
+![image.png](imgs/python-functions.webp)
 
 Đầu tiên mình tạo 1 class Filter, class này sẽ giúp chúng ta quản lí tham số lọc dễ dàng và đọc hiểu nhanh.
 
