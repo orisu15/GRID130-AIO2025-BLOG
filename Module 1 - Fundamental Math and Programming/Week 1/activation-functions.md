@@ -1,19 +1,4 @@
----
-title: Activation Functions
-parent: Week 1
-nav_order: 5
----
-
 # Activation Functions
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
 
 ## Hàm Sigmoid
 
