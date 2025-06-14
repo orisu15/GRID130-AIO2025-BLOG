@@ -39,3 +39,4 @@ Các bài blogs của nhóm trong Week 1 Module 1 bạn có thể tìm đọc th
 2. [Python cơ bản và SQL](python-sql.md)
 3. [Coding Methodology](coding-methodology.md)
 4. [Activation Functions](activation-functions.md)
+5. [Các độ đo trong bài toán phân loại](classification-evaluation.md)
