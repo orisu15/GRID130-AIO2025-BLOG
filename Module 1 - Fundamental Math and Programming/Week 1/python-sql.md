@@ -12,21 +12,21 @@ Dưới đây là minh họa cho việc sử dụng, chúng ta sẽ có rất nh
 
 Đầu tiên mình tạo 1 class Filter, class này sẽ giúp chúng ta quản lí tham số lọc dễ dàng và đọc hiểu nhanh.
 
-![image.png](attachment:2154c5d2-c40f-4b23-9ea8-7ebcc7edc4a3:image.png)
+![image.png](imgs/filter-class.webp)
 
 Tiếp theo mình sẽ tạo ra 3 hàm **filterPhones**, **makeFilterAndQuery, makeFieldQueryCondition.**
 
 Ở hàm **makeFieldQueryCondition,** hàm này sẽ tạo ra các câu query điều kiện dựa vào các tham số chúng ta truyền vào and return lại.
 
-![image.png](attachment:7b5ddab9-52b6-4e58-ba0b-39b48e446d5f:image.png)
+![image.png](imgs/makeFieldQueryCondition.webp)
 
 Tiếp theo là hàm **makeFilterAndQuery,** ở đây ta sẽ nhận vào 1 list các loại data lọc cần thiết và sử dụng for để build từng loại lọc từ tham số filters .
 
-![image.png](attachment:367e19a7-e29e-4d61-80d7-05617289889b:image.png)
+![image.png](imgs/makeFilterAndQuery.webp)
 
 Cuối cùng là hàm filter, hàm này sẽ nhận vào tham số queryFilter và mở connect tới database để query data.
 
-![image.png](attachment:aa6f4087-8bd7-4fb9-9304-409175c8d215:image.png)
+![image.png](imgs/filterPhones.webp)
 
 **Test kết quả:**
 
@@ -36,11 +36,11 @@ Mình sẽ build 1 số câu query như sau:
 
 1 câu query tìm điện thoại có giá < 1000$
 
-![image.png](attachment:25d4a96b-aae0-42ba-b7a4-dc75dd8a4a1b:image.png)
+![image.png](imgs/testQuery.webp)
 
 Test query với nhiều điệu kiện khác nhau:
 
-![image.png](attachment:49a55727-68b4-494b-b148-8589ab338037:image.png)
+![image.png](imgs/testQuery1.webp)
 
 Như các bạn thấy, code đã ngắn gọn đi rất nhiều rồi đúng không. Chúng ta giờ có thể đóng gọi lại và sử dụng cho việc sau này rồi ~~
 
@@ -205,3 +205,4 @@ Motorola,Moto G Stylus,2022,Android,128,6,5000,299,1
 OnePlus,Nord CE 2,2022,Android,128,6,4500,349,1
 ```
 
+![image.png](imgs/dummyData.webp)
