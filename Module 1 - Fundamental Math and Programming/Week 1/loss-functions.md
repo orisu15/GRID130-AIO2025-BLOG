@@ -1,4 +1,3 @@
----
 # 🎯 Giới thiệu 3 hàm mất mát trong bài toán hồi quy: MAE, MSE và RMSE
 
 Khi bạn xây dựng một mô hình học máy để **dự đoán số liên tục** – ví dụ như giá nhà, nhiệt độ, điểm số – bạn đang làm việc với **bài toán hồi quy** (regression). Nhưng làm sao để biết mô hình của bạn đang dự đoán tốt đến đâu?
