@@ -1,8 +1,11 @@
+---
 # 🎯 Giới thiệu 3 hàm mất mát trong bài toán hồi quy: MAE, MSE và RMSE
 
 Khi bạn xây dựng một mô hình học máy để **dự đoán số liên tục** – ví dụ như giá nhà, nhiệt độ, điểm số – bạn đang làm việc với **bài toán hồi quy** (regression). Nhưng làm sao để biết mô hình của bạn đang dự đoán tốt đến đâu?
 
 Đó là lúc **hàm mất mát (loss function)** phát huy tác dụng. Bài viết này sẽ giúp bạn hiểu 3 hàm mất mát phổ biến nhất trong hồi quy: **MAE**, **MSE**, và **RMSE**.
+
+---
 
 ## 1. ❓ Loss function là gì?
 
@@ -14,6 +17,8 @@ Khi bạn xây dựng một mô hình học máy để **dự đoán số liên 
 * Mô hình dự đoán: 950 triệu → sai 50 triệu
 
 Chúng ta muốn một con số nào đó phản ánh mức sai lệch này để tối ưu mô hình. Đó chính là vai trò của loss function.
+
+---
 
 ## 2. 📏 MAE – Mean Absolute Error (Sai số tuyệt đối trung bình)
 
@@ -46,6 +51,8 @@ MAE đo lường trung bình khoảng cách tuyệt đối giữa dự đoán v�
 * Khi bạn muốn mô hình công bằng và không bị chi phối bởi vài điểm sai nghiêm trọng
 * Phù hợp khi dữ liệu có nhiễu hoặc outliers
 
+---
+
 ## 3. 🧮 MSE – Mean Squared Error (Sai số bình phương trung bình)
 
 ### ✅ Công thức:
@@ -72,6 +79,8 @@ MSE cũng đo sai số trung bình, nhưng bình phương sai số trước khi 
 
 * Khi bạn muốn mô hình tránh sai số lớn
 * Khi bạn không ngại mất tính trực quan (do thay đổi đơn vị)
+
+---
 
 ## 4. 🧮 RMSE – Root Mean Squared Error (Căn bậc hai của MSE)
 
