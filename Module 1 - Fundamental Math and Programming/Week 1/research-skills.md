@@ -1,5 +1,7 @@
 # Kĩ năng tìm - đọc - lên kế hoạch research
 
+---
+
 ## 🔍 Nguồn tìm kiếm các document và paper
 Dưới đây là những kho tài liệu chất lượng, nơi bạn có thể tìm kiếm những paper và document uy tín:
 - **Google Scholar**: https://scholar.google.com/
@@ -15,6 +17,8 @@ Dưới đây là những kho tài liệu chất lượng, nơi bạn có thể 
 - **PapersWithCode**: https://paperswithcode.com/
   > Tìm mã nguồn tương ứng với bài báo
 - **Một số nguồn khác**: Springer, ScienceDirect, ...
+
+---
 
 ## 📖 Kĩ năng đọc một research paper
 ### Cấu trúc
@@ -50,6 +54,8 @@ Thứ tự đọc (tham khảo) cho một research paper:
 6. Related work
 > 📌 _Tips:_ Đọc qua những phần như tiêu đề, tóm tắt, giới thiệu để năm được tổng quan và biết được paper viết về cái gì, sau đó đọc phần kết quả xem liệu kết quả đó có mang nhiều ý nghĩa với việc nghiên cứu của mình không, sau đó mới đọc đến những phần còn lại để đào sâu hơn vào bài toán
 Ta cũng có thể tận dụng các công cụ AI giúp việc đọc một research paper dễ dàng hơn như NotebookLM
+
+---
 
 ## 🚀 Lên kế hoạch research
 Với sự hỗ trợ của AI hiện nay, ta có thể nhờ các công cụ tạo ra một kế hoạch research chi tiết nhờ chức năng Deep research. Ví dụ như với công cụ Gemini với Deep Reasearch với prompt như sau:
