@@ -12,7 +12,7 @@ Hàm Sigmoid, còn được gọi là hàm logistic, là một trong những hà
 
 Hàm Sigmoid:
 
-$\text{sigmoid}(x) = \frac{1}{1+e^{-x}}$
+$$\text{sigmoid}(x) = \frac{1}{1+e^{-x}}$$
 
 ![📈 Đồ thị Sigmoid](imgs/sigmoid-graph.png)
 
