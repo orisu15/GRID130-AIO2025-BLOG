@@ -52,8 +52,8 @@ Thứ tự đọc (tham khảo) cho một research paper:
 4. Results
 5. Methods
 6. Related work
-> 📌 _Tips:_ Đọc qua những phần như tiêu đề, tóm tắt, giới thiệu để năm được tổng quan và biết được paper viết về cái gì, sau đó đọc phần kết quả xem liệu kết quả đó có mang nhiều ý nghĩa với việc nghiên cứu của mình không, sau đó mới đọc đến những phần còn lại để đào sâu hơn vào bài toán
-Ta cũng có thể tận dụng các công cụ AI giúp việc đọc một research paper dễ dàng hơn như NotebookLM
+> 📌 _Tips:_ Đọc qua những phần như tiêu đề, tóm tắt, giới thiệu để năm được tổng quan và biết được paper viết về cái gì, sau đó đọc phần kết quả xem liệu kết quả đó có mang nhiều ý nghĩa với việc nghiên cứu của mình không, sau đó mới đọc đến những phần còn lại để đào sâu hơn vào bài toán.
+> Ta cũng có thể tận dụng các công cụ AI giúp việc đọc một research paper dễ dàng hơn như NotebookLM
 
 ---
 
