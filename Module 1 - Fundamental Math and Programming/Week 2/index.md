@@ -1,5 +1,7 @@
 # Week 2
 
+---
+
 ## Nội dung học trong tuần
 
 - List trong Python:
@@ -22,6 +24,8 @@
 - Data Structure - Exercise: 
   - Ôn nhanh nội dung chính của buổi thứ 4 và thứ 6
   - Giải các bài tập
+
+---
 
 ## Blogs
 Các bài blogs của nhóm trong Week 2 Module 1 bạn có thể tìm đọc theo đường dẫn bên dưới đây:
