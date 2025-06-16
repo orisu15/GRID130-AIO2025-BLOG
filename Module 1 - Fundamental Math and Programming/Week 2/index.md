@@ -29,5 +29,6 @@
 
 ## Blogs
 Các bài blogs của nhóm trong Week 2 Module 1 bạn có thể tìm đọc theo đường dẫn bên dưới đây:
+1. [Chuẩn hóa dữ liệu trong Database và giới thiệu về phi chuẩn hóa](normalize-database.md)
 
 1. 
