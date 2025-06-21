@@ -49,41 +49,73 @@
 
 ## Hướng Dẫn Markdown Cho Blog GitHub Của Bạn!
 
-### 1. Tiêu Đề (Headings): Giúp cấu trúc bài viết của bạn một cách rõ ràng. Sử dụng dấu `#` cho các cấp độ tiêu đề khác nhau:
-
-```markdown
-# Tiêu đề cấp 1
-## Tiêu đề cấp 2
-### Tiêu đề cấp 3
-#### Tiêu đề cấp 4
-##### Tiêu đề cấp 5
-###### Tiêu đề cấp 6
-
-### 2. Định Dạng Văn Bản (Text Formatting): Làm nổi bật những phần quan trọng:
-
-- **In đậm:** `**văn bản in đậm**` hoặc `__văn bản in đậm__`
-- **In nghiêng:** `*văn bản in nghiêng*` hoặc `_văn bản in nghiêng_`
-- **In đậm và Nghiêng:** `***văn bản in đậm và nghiêng***`
-- **Gạch ngang:** `~~văn bản gạch ngang~~`
-
-### 3. Danh Sách (Lists): Tổ chức thông tin một cách ngăn nắp:
-
-- **Danh sách không có thứ tự:**
+1.  **Tiêu Đề (Headings):** Giúp cấu trúc bài viết của bạn một cách rõ ràng. Sử dụng dấu `#` cho các cấp độ tiêu đề khác nhau:
     ```markdown
-    - Mục thứ nhất
-    - Mục thứ hai
-      - Mục con của mục thứ hai
-    * Mục khác
-    ```
-- **Danh sách có thứ tự:**
-    ```markdown
-    1. Bước một
-    2. Bước hai
-       1. Bước con của bước hai
-    3. Bước ba
+    # Tiêu đề cấp 1
+    ## Tiêu đề cấp 2
+    ### Tiêu đề cấp 3
+    #### Tiêu đề cấp 4
+    ##### Tiêu đề cấp 5
+    ###### Tiêu đề cấp 6
     ```
 
-### 4. Liên Kết (Links): Kết nối bài viết của bạn với các tài nguyên bên ngoài:
+2.  **Định Dạng Văn Bản (Text Formatting):** Làm nổi bật những phần quan trọng:
+    - **In đậm:** `**văn bản in đậm**` hoặc `__văn bản in đậm__`
+    - **In nghiêng:** `*văn bản in nghiêng*` hoặc `_văn bản in nghiêng_`
+    - **In đậm và Nghiêng:** `***văn bản in đậm và nghiêng***`
+    - **Gạch ngang:** `~~văn bản gạch ngang~~`
 
-```markdown
-[Văn bản liên kết](https://www.example.com)
+3.  **Danh Sách (Lists):** Tổ chức thông tin một cách ngăn nắp:
+    - **Danh sách không có thứ tự:**
+        ```markdown
+        - Mục thứ nhất
+        - Mục thứ hai
+          - Mục con của mục thứ hai
+        * Mục khác
+        ```
+    - **Danh sách có thứ tự:**
+        ```markdown
+        1. Bước một
+        2. Bước hai
+           1. Bước con của bước hai
+        3. Bước ba
+        ```
+
+4.  **Liên Kết (Links):** Kết nối bài viết của bạn với các tài nguyên bên ngoài:
+    ```markdown
+    [Văn bản liên kết](https://www.example.com)
+    ```
+
+5.  **Hình Ảnh (Images):** Trực quan hóa nội dung của bạn:
+    ```markdown
+    ![Văn bản thay thế cho ảnh](https://www.example.com/image.jpg)
+    ```
+
+6.  **Khối Mã (Code Blocks):** Hiển thị code một cách rõ ràng và dễ đọc. GitHub hỗ trợ tô sáng cú pháp (`syntax highlighting`):
+    - **Code nội dòng:** Sử dụng dấu huyền ` `` ` ví dụ: `` `văn bản code` ``
+    - **Khối code (multiline):**
+        ```python
+        def hello_github():
+            print("Hello, GitHub!")
+        ```
+        (Thay `python` bằng ngôn ngữ lập trình của bạn như `java`, `javascript`, `html`, v.v.)
+
+7.  **Trích Dẫn (Blockquotes)**
+    ```markdown
+    > Đây là một câu trích dẫn quan trọng từ một nguồn nào đó.
+    ```
+
+8.  **Đường Kẻ Ngang (Horizontal Rule)**
+    Phân chia các phần trong bài viết:
+    ```markdown
+    ---
+    ```
+    (Sử dụng ba hoặc nhiều hơn dấu gạch ngang `---`, dấu sao `***`, hoặc dấu gạch dưới `___`)
+
+9.  **Bảng (Tables)**
+    ```markdown
+    | Tiêu đề cột 1 | Tiêu đề cột 2 | Tiêu đề cột 3 |
+    |---------------|:-------------:|--------------:|
+    | Dữ liệu hàng 1, cột 1 | Căn giữa | Căn phải |
+    | Dữ liệu hàng 2, cột 1 | Dữ liệu hàng 2, cột 2 | Dữ liệu hàng 2, cột 3 |
+    ```
