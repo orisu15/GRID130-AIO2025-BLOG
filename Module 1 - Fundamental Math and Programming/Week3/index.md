@@ -25,7 +25,8 @@
 
 ## Blogs
 Các bài blogs của nhóm trong Week 3 Module 1 bạn có thể tìm đọc theo đường dẫn bên dưới đây:
-1. 
-2. 
-3. 
-4. 
+
+1. [Tên blog](<đường dẫn tương đối>)
+2. [Tên blog](<đường dẫn tương đối>)
+3. [Tên blog](<đường dẫn tương đối>)
+4. [Tên blog](<đường dẫn tương đối>)
