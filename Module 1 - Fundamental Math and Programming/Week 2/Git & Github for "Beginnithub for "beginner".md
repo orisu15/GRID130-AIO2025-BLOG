@@ -3,7 +3,6 @@
 ## Git và GitHub: Tại sao chúng lại cần thiết?
 
 > **💡 Trong thế giới phát triển phần mềm, việc quản lý mã nguồn và cộng tác nhóm luôn là một thách thức lớn.** Các hệ thống kiểm soát phiên bản tập trung (Centralized VCS) được tạo ra để giải quyết vấn đề này, nhưng lại có nhiều **hạn chế và rủi ro đáng kể**. Hệ thống này phụ thuộc hoàn toàn vào một **máy chủ trung tâm duy nhất** — điểm yếu nghiêm trọng có thể khiến toàn bộ dự án bị đình trệ khi gặp sự cố. Ngoài ra, nó còn gây khó khăn trong việc làm việc ngoại tuyến và làm phức tạp hóa quy trình phân nhánh và hợp nhất mã nguồn. Từ những hạn chế này, các **hệ thống kiểm soát phiên bản phân tán (Distributed VCS)** đã ra đời và phát triển mạnh mẽ, trong đó nổi bật nhất là **Git**.
->
 > Với Git, mỗi nhà phát triển đều sở hữu một bản sao hoàn chỉnh của toàn bộ kho mã nguồn, mở ra một kỷ nguyên mới của sự linh hoạt, bền vững và hiệu quả vượt trội trong phát triển phần mềm theo nhóm.
 
 - **Nguyên lý hoạt động của Git**
@@ -119,3 +118,11 @@
     | Dữ liệu hàng 1, cột 1 | Căn giữa | Căn phải |
     | Dữ liệu hàng 2, cột 1 | Dữ liệu hàng 2, cột 2 | Dữ liệu hàng 2, cột 3 |
     ```
+---
+## Tổng kết:
+
+Vậy là chúng ta đã đi qua phần giới thiệu cơ bản của tôi về Git và Github:
+
+* **Phần 1:** Nguyên lý hoạt động và giới thiệu tổng quan về Git & Github
+* **Phần 2:** Cài đặt cấu hình Git cho Windows
+* **Phần 3:** Các câu lệnh Markdown cơ bản thường dùng trong Github
