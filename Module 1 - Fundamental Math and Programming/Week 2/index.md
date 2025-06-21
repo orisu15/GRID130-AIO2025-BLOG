@@ -29,6 +29,7 @@
 
 ## Blogs
 Các bài blogs của nhóm trong Week 2 Module 1 bạn có thể tìm đọc theo đường dẫn bên dưới đây:
-1. [Chuẩn hóa dữ liệu trong Database và giới thiệu về phi chuẩn hóa](<normalize-database.md>)
-
-2. [Thực hành đếm số lần xuất hiện các từ có trong file](<word-suggestion/>)
+1. [Tìm hiểu nâng cao về Tuple, Set và Dictionary trong Python](<Advanced Data Structure (IoU, NMS, and Histogram).md>)
+2. [Chuẩn hóa dữ liệu trong Database và giới thiệu về phi chuẩn hóa](<normalize-database.md>)
+3. [Git & Github ](<Git & Github for "beginner".md>)
+4. [Thực hành đếm số lần xuất hiện các từ có trong file](word-suggestion.md)
