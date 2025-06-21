@@ -49,7 +49,7 @@
 
 ## Hướng Dẫn Markdown Cho Blog GitHub Của Bạn!
 
-1.  **Tiêu Đề (Headings):** Giúp cấu trúc bài viết của bạn một cách rõ ràng. Sử dụng dấu `#` cho các cấp độ tiêu đề khác nhau:
+1.  **Tiêu Đề (Headings):** Giúp cấu trúc bài viết rõ ràng. Sử dụng dấu `#` cho các cấp độ tiêu đề khác nhau:
     ```markdown
     # Tiêu đề cấp 1
     ## Tiêu đề cấp 2
@@ -81,12 +81,12 @@
         3. Bước ba
         ```
 
-4.  **Liên Kết (Links):** Kết nối bài viết của bạn với các tài nguyên bên ngoài:
+4.  **Liên Kết (Links):** Kết nối bài viết với các tài nguyên bên ngoài:
     ```markdown
     [Văn bản liên kết](https://www.example.com)
     ```
 
-5.  **Hình Ảnh (Images):** Trực quan hóa nội dung của bạn:
+5.  **Hình Ảnh (Images):** Trực quan hóa nội dung :
     ```markdown
     ![Văn bản thay thế cho ảnh](https://www.example.com/image.jpg)
     ```
