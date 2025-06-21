@@ -59,7 +59,7 @@
 ##### Tiêu đề cấp 5
 ###### Tiêu đề cấp 6
 
-### 2. Định Dạng Văn Bản (Text Formatting): Làm nổi bật những phần quan trọng:
+**### 2. Định Dạng Văn Bản (Text Formatting): Làm nổi bật những phần quan trọng:**
 
 - **In đậm:** `**văn bản in đậm**` hoặc `__văn bản in đậm__`
 - **In nghiêng:** `*văn bản in nghiêng*` hoặc `_văn bản in nghiêng_`
