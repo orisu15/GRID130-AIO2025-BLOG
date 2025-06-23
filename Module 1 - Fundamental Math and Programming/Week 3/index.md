@@ -29,4 +29,4 @@ Các bài blogs của nhóm trong Week 3 Module 1 bạn có thể tìm đọc th
 1. [Tên blog](<đường dẫn tương đối>)
 2. [Tên blog](<đường dẫn tương đối>)
 3. [Tên blog](<đường dẫn tương đối>)
-4. [Tên blog](<đường dẫn tương đối>)
+4. [Cấu trúc dữ liệu queue, stack, binary search tree](<Cấu trúc dữ liệu queue, stack và binary search tree.md>)
