@@ -1,4 +1,4 @@
-# Cấu trúc dữ liệu queue, stack và binary search tree.md
+# Cấu trúc dữ liệu queue, stack và binary search tree
 
 Trong lập trình, việc lựa chọn cấu trúc dữ liệu phù hợp là chìa khóa để tạo ra những ứng dụng hiệu quả và tối ưu. Hôm nay chúng ta sẽ cùng tìm hiểu ba cấu trúc dữ liệu cơ bản nhưng vô cùng quan trọng: Queue, Stack và Binary Search Tree, kèm theo những ví dụ ứng dụng thực tiễn bằng Python.
 
