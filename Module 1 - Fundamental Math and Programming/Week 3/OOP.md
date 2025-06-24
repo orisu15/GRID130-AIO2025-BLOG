@@ -81,7 +81,7 @@ class MyClass:
 obj2 = MyClass("Phong")
 obj2()
 ```
-***`args`: (Arguments - Đối số vị trí) :"Số lượng đối số vị trí không xác định"**
+***args: (Arguments - Đối số vị trí) :"Số lượng đối số vị trí không xác định"**
 
 Hãy tưởng tượng bạn gọi điện đặt bánh pizza. Người bán hàng sẽ hỏi bạn muốn chọn những **loại topping nào**.
 
@@ -114,7 +114,7 @@ dat_topping_pizza("phô mai")
 # Bạn đã chọn các topping sau:
 # - phô mai
 ```
-****`args`:  "Số lượng đối số từ khóa không xác định”**
+****args:  "Số lượng đối số từ khóa không xác định”**
 
 Bây giờ, vẫn là đặt bánh pizza, nhưng lần này bạn muốn chỉ rõ các **yêu cầu đặc biệt** cho bánh.
 
@@ -189,3 +189,37 @@ Hãy tưởng tượng bạn có các lớp:
 
 - **`Nguoi`**: Có tên, và biết nói chuyện chung chung.
 - **`HocSinh`**: Là một `Nguoi`, có thêm điểm số, và khi nói chuyện thì nói về việc học.
+```python
+class Nguoi:
+    def __init__(self, ten):
+        self.ten = ten
+        print(f"Một người tên '{self.ten}' đã được tạo ra.")
+
+    def noi_chuyen(self):
+        print(f"{self.ten} nói: 'Chào mọi người!'")
+
+class HocSinh(Nguoi):
+    def __init__(self, ten, diem_tb):
+        # Bước 1: Gọi __init__ của lớp cha Nguoi để khởi tạo 'ten'
+        super().__init__(ten)
+        self.diem_trung_binh = diem_tb
+        print(f"Học sinh '{self.ten}' với điểm TB {self.diem_trung_binh} đã được tạo.")
+
+    def noi_chuyen(self):
+        # Bước 2: Gọi phương thức noi_chuyen của lớp cha Nguoi trước
+        super().noi_chuyen()
+        # Bước 3: Sau đó, bổ sung thêm nội dung nói chuyện của học sinh
+        print(f"{self.ten} nói thêm: 'Hôm nay bài tập khó quá!'")
+
+# Tạo một đối tượng HocSinh
+hoc_sinh_an = HocSinh("An", 8.5)
+# Output:
+# Một người tên 'An' đã được tạo ra.
+# Học sinh 'An' với điểm TB 8.5 đã được tạo.
+
+# Gọi phương thức noi_chuyen
+hoc_sinh_an.noi_chuyen()
+# Output:
+# An nói: 'Chào mọi người!'
+# An nói thêm: 'Hôm nay bài tập khó quá!'
+```
