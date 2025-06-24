@@ -183,3 +183,9 @@ class Dog(Animal):
 obj1 = Dog("Bunny") -> Bunny say Woof
 ```
 Mặc dù có 2 function speak nhưng lớp con là Dog sẽ **ghi đè** function speak lên lớp cha và output sẽ là **“say Woof”** thay vì **“make a sounds”**
+`#super().**init**(name):`   Khi bạn tạo một lớp con và lớp con đó có `__init__` riêng, bạn cần đảm bảo rằng lớp cha cũng được khởi tạo đúng cách. `super().__init__()` sẽ làm điều đó. Nó giúp tránh việc phải viết lại code khởi tạo đã có ở lớp cha.
+
+Hãy tưởng tượng bạn có các lớp:
+
+- **`Nguoi`**: Có tên, và biết nói chuyện chung chung.
+- **`HocSinh`**: Là một `Nguoi`, có thêm điểm số, và khi nói chuyện thì nói về việc học.
