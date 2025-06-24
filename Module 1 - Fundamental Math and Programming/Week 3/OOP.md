@@ -81,7 +81,7 @@ class MyClass:
 obj2 = MyClass("Phong")
 obj2()
 ```
-***args: (Arguments - Đối số vị trí) :"Số lượng đối số vị trí không xác định"**
+***`args`: (Arguments - Đối số vị trí) :"Số lượng đối số vị trí không xác định"**
 
 Hãy tưởng tượng bạn gọi điện đặt bánh pizza. Người bán hàng sẽ hỏi bạn muốn chọn những **loại topping nào**.
 
@@ -114,7 +114,7 @@ dat_topping_pizza("phô mai")
 # Bạn đã chọn các topping sau:
 # - phô mai
 ```
-****args:  "Số lượng đối số từ khóa không xác định”**
+****`args`:  "Số lượng đối số từ khóa không xác định”**
 
 Bây giờ, vẫn là đặt bánh pizza, nhưng lần này bạn muốn chỉ rõ các **yêu cầu đặc biệt** cho bánh.
 
