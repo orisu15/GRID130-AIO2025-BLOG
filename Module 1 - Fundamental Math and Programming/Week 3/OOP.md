@@ -36,8 +36,7 @@ class Rectangle:
 
 my_rec = Rectangle(4, 7)
 ```
-Phương thức __call__
-__call__: Khi bạn định nghĩa phương thức __call__ trong một lớp, và sau đó tạo một đối tượng từ lớp đó, bạn có thể "gọi" đối tượng đó bằng cách sử dụng dấu ngoặc đơn () như thể nó là một hàm. Khi bạn làm như vậy, Python sẽ tự động gọi phương thức __call__ của đối tượng đó.
+Phương thức __call__: Khi bạn định nghĩa phương thức __call__ trong một lớp, và sau đó tạo một đối tượng từ lớp đó, bạn có thể "gọi" đối tượng đó bằng cách sử dụng dấu ngoặc đơn () như thể nó là một hàm. Khi bạn làm như vậy, Python sẽ tự động gọi phương thức __call__ của đối tượng đó.
 
 ```python
 class MyClass:
@@ -82,3 +81,17 @@ class MyClass:
 obj2 = MyClass("Phong")
 obj2()
 ```
+***args: (Arguments - Đối số vị trí) :"Số lượng đối số vị trí không xác định"**
+
+Hãy tưởng tượng bạn gọi điện đặt bánh pizza. Người bán hàng sẽ hỏi bạn muốn chọn những **loại topping nào**.
+
+- Bạn có thể nói: "Cho tôi **thịt xông khói**, **nấm**, **ớt chuông**."
+- Hoặc bạn có thể nói: "Tôi chỉ muốn **phô mai** thôi."
+- Hoặc: "Cho tôi **thịt gà**, **dứa**, **hành tây**, **ô liu**."
+
+Bạn thấy đó, bạn có thể nói bao nhiêu loại topping tùy ý, không có giới hạn! Người bán hàng chỉ cần nghe một danh sách các loại topping theo thứ tự bạn nói, không cần bạn phải nói "topping 1 là...", "topping 2 là...".
+
+Trong lập trình, đó chính là ý nghĩa của "số lượng đối số vị trí không xác định":
+
+- Bạn có thể truyền vào 1, 2, 3, hay 1000 giá trị.
+- Các giá trị này được nhận diện dựa vào **vị trí** của chúng trong danh sách bạn đưa ra.
