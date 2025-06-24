@@ -14,7 +14,7 @@
             - `mauLong = "tam the"`, `canNang = 4kg`, `soChan = 4`.
         - **Hành vi (methods) : những hành động mà object có thể thực hiện**
             - `MeoTamThe.keu()` (sẽ phát ra tiếng "meo meo").
-
+---
 ## Cấu trúc cơ bản của một class :
 
 > **Class → Constructor → Objects → attributes → methods**
