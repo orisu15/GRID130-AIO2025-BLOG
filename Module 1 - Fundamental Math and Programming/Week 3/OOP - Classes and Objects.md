@@ -19,7 +19,7 @@
 
 > **Class → Constructor → Objects → attributes → methods**
 
-![image.jpg](image.jpg)
+![image.jpg](image1.jpg)
 
 ```python
 class Rectangle:
