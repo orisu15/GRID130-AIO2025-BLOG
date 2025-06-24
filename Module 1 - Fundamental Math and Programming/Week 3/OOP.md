@@ -35,7 +35,10 @@ class Rectangle:
         return (self.width + self.height) * 2
 
 my_rec = Rectangle(4, 7)
-__call__: Khi bạn định nghĩa phương thức __call__ trong một lớp, và sau đó tạo một đối tượng từ lớp đó, bạn có thể "gọi" đối tượng đó bằng cách sử dụng dấu ngoặc đơn () như thể nó là một hàm. Khi bạn làm như vậy, Python sẽ tự động gọi phương thức __call__ của đối tượng đó.class MyClass:
+```
+__call__: Khi bạn định nghĩa phương thức __call__ trong một lớp, và sau đó tạo một đối tượng từ lớp đó, bạn có thể "gọi" đối tượng đó bằng cách sử dụng dấu ngoặc đơn () như thể nó là một hàm. Khi bạn làm như vậy, Python sẽ tự động gọi phương thức __call__ của đối tượng đó.
+```python
+class MyClass:
     def __init__(self, value):
         self.value = value
         print("Đối tượng được tạo.")
@@ -54,6 +57,7 @@ my_object = MyClass(10)
 result = my_object(1, 2, name="Alice")
 
 print(result)
+```
 Tác dụng của __call__: đầu tiên vẫn gán object với class để gọi constructor, sau đó, gán trực tiếp biến đó với giá trị như một function đã được định nghĩa thay vì phải gọi như methods.Không có callclass MyClass:
 	def __init__(self, name):
 		self.name = name
