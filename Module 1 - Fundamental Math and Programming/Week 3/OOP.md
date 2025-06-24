@@ -61,6 +61,7 @@ result = my_object(1, 2, name="Alice")
 print(result)
 ```
 Tác dung của __call__: đầu tiên vẫn gán object với class để gọi constructor, sau đó, gán trực tiếp biến đó với giá trị như một function đã được định nghĩa thay vì phải gọi như methods
+
 **Không có __call__**
 ```python
 class MyClass:
