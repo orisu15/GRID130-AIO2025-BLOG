@@ -166,8 +166,8 @@ https://www.pythonlikeyoumeanit.com/Module4_OOP/Special_Methods.html
 - **Tính Kế Thừa (Inheritance)**
     - **Ý nghĩa:** Tính kế thừa cho phép một lớp mới (lớp con/lớp dẫn xuất) kế thừa các thuộc tính và phương thức từ một lớp đã có (lớp cha/lớp cơ sở). Nó giúp tái sử dụng mã, giảm sự trùng lặp và thể hiện mối quan hệ "là một loại" (is-a-kind-of). Giống như việc một đứa con kế thừa một số đặc điểm từ bố mẹ.
     - **Trong OOP:** Lớp con có thể sử dụng lại các thành phần của lớp cha mà không cần viết lại, và có thể bổ sung thêm các thuộc tính, phương thức mới hoặc ghi đè (override) các phương thức của lớp cha để thay đổi hành vi.
-      ```python
-      class Animal():
+```python
+class Animal():
 	def __init__(self, name):
 		self.name = name 
 	def get_name(self):
@@ -181,4 +181,4 @@ class Dog(Animal):
 		print(f"{self.name} say Woof")
 
 obj1 = Dog("Bunny") -> Bunny say Woof
-	```
+```
