@@ -39,3 +39,5 @@ class Rectangle:
         return (self.width + self.height) * 2
 
 my_rec = Rectangle(4, 7)
+Phương thức __call__ trong Python
+Khi bạn định nghĩa phương thức __call__ trong một lớp, và sau đó tạo một đối tượng từ lớp đó, bạn có thể "gọi" đối tượng đó bằng cách sử dụng dấu ngoặc đơn () như thể nó là một hàm. Khi bạn làm như vậy, Python sẽ tự động gọi phương thức __call__ của đối tượng đó.
