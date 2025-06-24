@@ -43,6 +43,7 @@ Phương thức __call__ trong Python
 ```
 
 Khi bạn định nghĩa phương thức __call__ trong một lớp, và sau đó tạo một đối tượng từ lớp đó, bạn có thể "gọi" đối tượng đó bằng cách sử dụng dấu ngoặc đơn () như thể nó là một hàm. Khi bạn làm như vậy, Python sẽ tự động gọi phương thức __call__ của đối tượng đó.
+```python
 class MyClass:
     def __init__(self, value):
         self.value = value
@@ -62,3 +63,4 @@ my_object = MyClass(10)
 result = my_object(1, 2, name="Alice")
 
 print(result)
+```
