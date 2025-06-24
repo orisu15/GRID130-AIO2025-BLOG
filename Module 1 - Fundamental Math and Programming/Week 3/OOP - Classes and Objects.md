@@ -19,7 +19,7 @@
 
 > **Class → Constructor → Objects → attributes → methods**
 
-![image.png](image.png)
+![Mô tả hình ảnh của bạn](imgs/image.png)
 
 ```python
 class Rectangle:
