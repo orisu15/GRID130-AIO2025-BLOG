@@ -182,3 +182,4 @@ class Dog(Animal):
 
 obj1 = Dog("Bunny") -> Bunny say Woof
 ```
+Mặc dù có 2 function speak nhưng lớp con là Dog sẽ **ghi đè** function speak lên lớp cha và output sẽ là **“say Woof”** thay vì **“make a sounds”**
