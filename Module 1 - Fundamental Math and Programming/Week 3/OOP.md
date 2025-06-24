@@ -95,3 +95,55 @@ Trong lập trình, đó chính là ý nghĩa của "số lượng đối số v
 
 - Bạn có thể truyền vào 1, 2, 3, hay 1000 giá trị.
 - Các giá trị này được nhận diện dựa vào **vị trí** của chúng trong danh sách bạn đưa ra.
+ ```python
+def dat_topping_pizza(*danh_sach_topping): # Dấu * ở đây là "hãy gom tất cả các loại topping tôi nói vào một danh sách"
+    print("Bạn đã chọn các topping sau:")
+    for topping in danh_sach_topping:
+        print(f"- {topping}")
+
+# Gọi hàm
+dat_topping_pizza("thịt xông khói", "nấm", "ớt chuông")
+# Output:
+# Bạn đã chọn các topping sau:
+# - thịt xông khói
+# - - nấm
+# - ớt chuông
+
+dat_topping_pizza("phô mai")
+# Output:
+# Bạn đã chọn các topping sau:
+# - phô mai
+```
+****args:  "Số lượng đối số từ khóa không xác định”**
+
+Bây giờ, vẫn là đặt bánh pizza, nhưng lần này bạn muốn chỉ rõ các **yêu cầu đặc biệt** cho bánh.
+
+- Bạn có thể nói: "Cho tôi bánh **kích_cỡ=lớn**, **loại_đế=mỏng**, **phô_mai_thêm=Đúng**."
+- Hoặc bạn có thể nói: "Tôi muốn bánh **khuyến_mãi=sinh_nhật**."
+- Hoặc: "Chỉ cần bánh **giao_hàng_tại=nhà** thôi."
+
+Lần này, bạn không chỉ nói giá trị (ví dụ "lớn"), mà bạn còn nói rõ đó là "kích cỡ" gì (`kích_cỡ=lớn`). Mỗi yêu cầu đều có một **tên rõ ràng** đi kèm với giá trị của nó. Bạn cũng có thể đưa ra bao nhiêu yêu cầu đặc biệt tùy thích, miễn là mỗi yêu cầu đều có tên.
+
+Trong lập trình, đó chính là ý nghĩa của "số lượng đối số từ khóa không xác định":
+
+- Bạn có thể truyền vào 1, 2, 3, hay 1000 cặp "tên = giá trị".
+- Các giá trị này được nhận diện dựa vào **tên (từ khóa)** mà bạn đặt cho chúng.
+```python
+def dat_yeu_cau_dac_biet_pizza(**thong_tin_them): # Dấu ** ở đây là "hãy gom tất cả các yêu cầu có tên vào một danh sách các yêu cầu"
+    print("Các yêu cầu đặc biệt của bạn:")
+    for yeu_cau, chi_tiet in thong_tin_them.items():
+        print(f"- {yeu_cau}: {chi_tiet}")
+
+# Gọi hàm
+dat_yeu_cau_dac_biet_pizza(kích_cỡ="lớn", loại_đế="mỏng", phô_mai_thêm=True)
+# Output:
+# Các yêu cầu đặc biệt của bạn:
+# - kích_cỡ: lớn
+# - loại_đế: mỏng
+# - phô_mai_thêm: True
+
+dat_yeu_cau_dac_biet_pizza(khuyến_mãi="sinh_nhật")
+# Output:
+# Các yêu cầu đặc biệt của bạn:
+# - khuyến_mãi: sinh_nhật
+```
