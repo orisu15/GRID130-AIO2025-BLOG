@@ -155,6 +155,7 @@ Dưới đây là bảng so sánh giữa *args và **kwargs
 | Dạng gói thành | tuple | dictionary |
 | Sử dụng khi | Số lượng đối số vị trí không xác định | Số lượng đối số từ khóa không xác định |
 | Thứ tự trong hàm | Phải đứng trước ``**kwargs`` | Phải đứng sau ``*args`` |
+
 **Special Methods of OOP in Python you should read**
 https://www.pythonlikeyoumeanit.com/Module4_OOP/Special_Methods.html
 
