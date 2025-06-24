@@ -27,6 +27,6 @@
 Các bài blogs của nhóm trong Week 3 Module 1 bạn có thể tìm đọc theo đường dẫn bên dưới đây:
 
 1. [Tên blog](<đường dẫn tương đối>)
-2. [Tên blog](<đường dẫn tương đối>)
+2. [OOP - Classes and Objetcs](<OOP - Classes and Objects.md>)
 3. [Tìm hiểu về overator của class trong python](<Tìm hiểu về overator của class trong python.md>)
 4. [Cấu trúc dữ liệu queue, stack, binary search tree](<Cấu trúc dữ liệu queue, stack và binary search tree.md>)
