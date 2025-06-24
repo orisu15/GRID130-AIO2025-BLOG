@@ -147,3 +147,11 @@ dat_yeu_cau_dac_biet_pizza(khuyến_mãi="sinh_nhật")
 # Các yêu cầu đặc biệt của bạn:
 # - khuyến_mãi: sinh_nhật
 ```
+**Dưới đây là bảng so sánh giữa *args và **kwargs**
+| **Đặc điểm** | **`*args`** | **`**kwargs`** |
+| --- | --- | --- |
+| Loại đối số | Đối số vị trí (positional arguments) | Đối số từ khóa (keyword arguments) |
+| Cú pháp | ``*tên_biến`` | ``**tên_biến`` |
+| Dạng gói thành | tuple | dictionary |
+| Sử dụng khi | Số lượng đối số vị trí không xác định | Số lượng đối số từ khóa không xác định |
+| Thứ tự trong hàm | Phải đứng trước ``**kwargs`` | Phải đứng sau ``*args`` |
