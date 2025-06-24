@@ -26,7 +26,7 @@ Như trong hình các bạn thấy, mình đã custom lại method __gt__, hàm 
 
 Kết quả chạy như sau:
 
-![image.png](imgs/operator5.png)
+![image.png](imgs/operator.png)
 
 Vừa rồi mình đã cho các bạn xem cách sử dụng các method này của python, các bạn sau khi đọc sau có thể tìm hiểu thêm tại đây: [Link](https://www.geeksforgeeks.org/python/operator-overloading-in-python/)
 
