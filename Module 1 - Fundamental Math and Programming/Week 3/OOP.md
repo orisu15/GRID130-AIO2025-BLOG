@@ -39,4 +39,24 @@ my_rec = Rectangle(4, 7)
 Phương thức __call__
 __call__: Khi bạn định nghĩa phương thức __call__ trong một lớp, và sau đó tạo một đối tượng từ lớp đó, bạn có thể "gọi" đối tượng đó bằng cách sử dụng dấu ngoặc đơn () như thể nó là một hàm. Khi bạn làm như vậy, Python sẽ tự động gọi phương thức __call__ của đối tượng đó.
 
+```python
+class MyClass:
+    def __init__(self, value):
+        self.value = value
+        print("Đối tượng được tạo.")
 
+    def __call__(self, *args, **kwargs):
+        print(f"Đối tượng đã được gọi! Giá trị của đối tượng: {self.value}")
+        print(f"Các đối số truyền vào: {args}")
+        print(f"Các đối số từ khóa truyền vào: {kwargs}")
+        # Bạn có thể thêm logic xử lý tại đây
+        return "Kết quả từ __call__"
+
+# Tạo một đối tượng từ lớp MyClass
+my_object = MyClass(10)
+
+# Gọi đối tượng như một hàm
+result = my_object(1, 2, name="Alice")
+
+print(result)
+```
