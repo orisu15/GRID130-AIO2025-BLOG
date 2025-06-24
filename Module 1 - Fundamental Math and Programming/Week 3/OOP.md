@@ -35,10 +35,7 @@ class Rectangle:
         return (self.width + self.height) * 2
 
 my_rec = Rectangle(4, 7)
-
-__call__: Khi bạn định nghĩa phương thức __call__ trong một lớp, và sau đó tạo một đối tượng từ lớp đó, bạn có thể "gọi" đối tượng đó bằng cách sử dụng dấu ngoặc đơn () như thể nó là một hàm. Khi bạn làm như vậy, Python sẽ tự động gọi phương thức __call__ của đối tượng đó.
-
-class MyClass:
+__call__: Khi bạn định nghĩa phương thức __call__ trong một lớp, và sau đó tạo một đối tượng từ lớp đó, bạn có thể "gọi" đối tượng đó bằng cách sử dụng dấu ngoặc đơn () như thể nó là một hàm. Khi bạn làm như vậy, Python sẽ tự động gọi phương thức __call__ của đối tượng đó.class MyClass:
     def __init__(self, value):
         self.value = value
         print("Đối tượng được tạo.")
@@ -57,48 +54,21 @@ my_object = MyClass(10)
 result = my_object(1, 2, name="Alice")
 
 print(result)
-
-Tác dụng của __call__: đầu tiên vẫn gán object với class để gọi constructor, sau đó, gán trực tiếp biến đó với giá trị như một function đã được định nghĩa thay vì phải gọi như methods.
-
-Không có call
-
-class MyClass:
+Tác dụng của __call__: đầu tiên vẫn gán object với class để gọi constructor, sau đó, gán trực tiếp biến đó với giá trị như một function đã được định nghĩa thay vì phải gọi như methods.Không có callclass MyClass:
 	def __init__(self, name):
 		self.name = name
 	def my_name(self):
 		print(f"Hello {self.name}")
 obj1 = MyClass("Phong")
 obj1.my_name()
-
-Có call
-
-class MyClass:
+Có callclass MyClass:
 	def __init__(self, name):
 		self.name = name
 	def __call__(self):
 		print(f"Hello {self.name}")
 obj2 = MyClass("Phong")
 obj2()
-
-*args: (Arguments - Đối số vị trí) :"Số lượng đối số vị trí không xác định".
-
-Hãy tưởng tượng bạn gọi điện đặt bánh pizza. Người bán hàng sẽ hỏi bạn muốn chọn những loại topping nào.
-
-Bạn có thể nói: "Cho tôi thịt xông khói, nấm, ớt chuông."
-
-Hoặc bạn có thể nói: "Tôi chỉ muốn phô mai thôi."
-
-Hoặc: "Cho tôi thịt gà, dứa, hành tây, ô liu."
-
-Bạn thấy đó, bạn có thể nói bao nhiêu loại topping tùy ý, không có giới hạn! Người bán hàng chỉ cần nghe một danh sách các loại topping theo thứ tự bạn nói, không cần bạn phải nói "topping 1 là...", "topping 2 là...".
-
-Trong lập trình, đó chính là ý nghĩa của "số lượng đối số vị trí không xác định":
-
-Bạn có thể truyền vào 1, 2, 3, hay 1000 giá trị.
-
-Các giá trị này được nhận diện dựa vào vị trí của chúng trong danh sách bạn đưa ra.
-
-def dat_topping_pizza(*danh_sach_topping): # Dấu * ở đây là "hãy gom tất cả các loại topping tôi nói vào một danh sách"
+*args: (Arguments - Đối số vị trí) :"Số lượng đối số vị trí không xác định".Hãy tưởng tượng bạn gọi điện đặt bánh pizza. Người bán hàng sẽ hỏi bạn muốn chọn những loại topping nào.Bạn có thể nói: "Cho tôi thịt xông khói, nấm, ớt chuông."Hoặc bạn có thể nói: "Tôi chỉ muốn phô mai thôi."Hoặc: "Cho tôi thịt gà, dứa, hành tây, ô liu."Bạn thấy đó, bạn có thể nói bao nhiêu loại topping tùy ý, không có giới hạn! Người bán hàng chỉ cần nghe một danh sách các loại topping theo thứ tự bạn nói, không cần bạn phải nói "topping 1 là...", "topping 2 là...".Trong lập trình, đó chính là ý nghĩa của "số lượng đối số vị trí không xác định":Bạn có thể truyền vào 1, 2, 3, hay 1000 giá trị.Các giá trị này được nhận diện dựa vào vị trí của chúng trong danh sách bạn đưa ra.def dat_topping_pizza(*danh_sach_topping): # Dấu * ở đây là "hãy gom tất cả các loại topping tôi nói vào một danh sách"
     print("Bạn đã chọn các topping sau:")
     for topping in danh_sach_topping:
         print(f"- {topping}")
@@ -115,26 +85,7 @@ dat_topping_pizza("phô mai")
 # Output:
 # Bạn đã chọn các topping sau:
 # - phô mai
-
-**kwargs: "Số lượng đối số từ khóa không xác định”.
-
-Bây giờ, vẫn là đặt bánh pizza, nhưng lần này bạn muốn chỉ rõ các yêu cầu đặc biệt cho bánh.
-
-Bạn có thể nói: "Cho tôi bánh kích_cỡ=lớn, loại_đế=mỏng, phô_mai_thêm=Đúng."
-
-Hoặc bạn có thể nói: "Tôi muốn bánh khuyến_mãi=sinh_nhật."
-
-Hoặc: "Chỉ cần bánh giao_hàng_tại=nhà thôi."
-
-Lần này, bạn không chỉ nói giá trị (ví dụ "lớn"), mà bạn còn nói rõ đó là "kích cỡ" gì (kích_cỡ=lớn). Mỗi yêu cầu đều có một tên rõ ràng đi kèm với giá trị của nó. Bạn cũng có thể đưa ra bao nhiêu yêu cầu đặc biệt tùy thích, miễn là mỗi yêu cầu đều có tên.
-
-Trong lập trình, đó chính là ý nghĩa của "số lượng đối số từ khóa không xác định":
-
-Bạn có thể truyền vào 1, 2, 3, hay 1000 cặp "tên = giá trị".
-
-Các giá trị này được nhận diện dựa vào tên (từ khóa) mà bạn đặt cho chúng.
-
-def dat_yeu_cau_dac_biet_pizza(**thong_tin_them): # Dấu ** ở đây là "hãy gom tất cả các yêu cầu có tên vào một danh sách các yêu cầu"
+**kwargs: "Số lượng đối số từ khóa không xác định”.Bây giờ, vẫn là đặt bánh pizza, nhưng lần này bạn muốn chỉ rõ các yêu cầu đặc biệt cho bánh.Bạn có thể nói: "Cho tôi bánh kích_cỡ=lớn, loại_đế=mỏng, phô_mai_thêm=Đúng."Hoặc bạn có thể nói: "Tôi muốn bánh khuyến_mãi=sinh_nhật."Hoặc: "Chỉ cần bánh giao_hàng_tại=nhà thôi."Lần này, bạn không chỉ nói giá trị (ví dụ "lớn"), mà bạn còn nói rõ đó là "kích cỡ" gì (kích_cỡ=lớn). Mỗi yêu cầu đều có một tên rõ ràng đi kèm với giá trị của nó. Bạn cũng có thể đưa ra bao nhiêu yêu cầu đặc biệt tùy thích, miễn là mỗi yêu cầu đều có tên.Trong lập trình, đó chính là ý nghĩa của "số lượng đối số từ khóa không xác định":Bạn có thể truyền vào 1, 2, 3, hay 1000 cặp "tên = giá trị".Các giá trị này được nhận diện dựa vào tên (từ khóa) mà bạn đặt cho chúng.def dat_yeu_cau_dac_biet_pizza(**thong_tin_them): # Dấu ** ở đây là "hãy gom tất cả các yêu cầu có tên vào một danh sách các yêu cầu"
     print("Các yêu cầu đặc biệt của bạn:")
     for yeu_cau, chi_tiet in thong_tin_them.items():
         print(f"- {yeu_cau}: {chi_tiet}")
@@ -151,59 +102,7 @@ dat_yeu_cau_dac_biet_pizza(khuyến_mãi="sinh_nhật")
 # Output:
 # Các yêu cầu đặc biệt của bạn:
 # - khuyến_mãi: sinh_nhật
-
-Dưới đây là bảng so sánh giữa *args và **kwargs
-
-Đặc điểm
-
-*args
-
-**kwargs
-
-Loại đối số
-
-Đối số vị trí (positional arguments)
-
-Đối số từ khóa (keyword arguments)
-
-Cú pháp
-
-*tên_biến
-
-**tên_biến
-
-Dạng gói thành
-
-tuple
-
-dictionary
-
-Sử dụng khi
-
-Số lượng đối số vị trí không xác định
-
-Số lượng đối số từ khóa không xác định
-
-Thứ tự trong hàm
-
-Phải đứng trước **kwargs
-
-Phải đứng sau *args
-
-Special Methods of OOP in Python you should read
-
-https://www.pythonlikeyoumeanit.com/Module4_OOP/Special_Methods.html
-
-4 Trụ Cột Của Lập Trình Hướng Đối Tượng (OOP)
-Các tính chất của OOP là những khái niệm cốt lõi giúp tổ chức và thiết kế mã nguồn một cách hiệu quả, dễ bảo trì và mở rộng. Dưới đây là 4 tính chất chính, thường được gọi tắt là A PIE (Abstraction, Polymorphism, Inheritance, Encapsulation) hoặc PIE A (nếu sắp xếp theo thứ tự khác):
-
-Tính Kế Thừa (Inheritance)
-
-Ý nghĩa: Tính kế thừa cho phép một lớp mới (lớp con/lớp dẫn xuất) kế thừa các thuộc tính và phương thức từ một lớp đã có (lớp cha/lớp cơ sở). Nó giúp tái sử dụng mã, giảm sự trùng lặp và thể hiện mối quan hệ "là một loại" (is-a-kind-of). Giống như việc một đứa con kế thừa một số đặc điểm từ bố mẹ.
-
-Trong OOP: Lớp con có thể sử dụng lại các thành phần của lớp cha mà không cần viết lại, và có thể bổ sung thêm các thuộc tính, phương thức mới hoặc ghi đè (override) các phương thức của lớp cha để thay đổi hành vi.
-
-class Animal():
+Dưới đây là bảng so sánh giữa *args và **kwargsĐặc điểm*args**kwargsLoại đối sốĐối số vị trí (positional arguments)Đối số từ khóa (keyword arguments)Cú pháp*tên_biến**tên_biếnDạng gói thànhtupledictionarySử dụng khiSố lượng đối số vị trí không xác địnhSố lượng đối số từ khóa không xác địnhThứ tự trong hàmPhải đứng trước **kwargsPhải đứng sau *argsSpecial Methods of OOP in Python you should readhttps://www.pythonlikeyoumeanit.com/Module4_OOP/Special_Methods.html4 Trụ Cột Của Lập Trình Hướng Đối Tượng (OOP)Các tính chất của OOP là những khái niệm cốt lõi giúp tổ chức và thiết kế mã nguồn một cách hiệu quả, dễ bảo trì và mở rộng. Dưới đây là 4 tính chất chính, thường được gọi tắt là A PIE (Abstraction, Polymorphism, Inheritance, Encapsulation) hoặc PIE A (nếu sắp xếp theo thứ tự khác):Tính Kế Thừa (Inheritance)Ý nghĩa: Tính kế thừa cho phép một lớp mới (lớp con/lớp dẫn xuất) kế thừa các thuộc tính và phương thức từ một lớp đã có (lớp cha/lớp cơ sở). Nó giúp tái sử dụng mã, giảm sự trùng lặp và thể hiện mối quan hệ "là một loại" (is-a-kind-of). Giống như việc một đứa con kế thừa một số đặc điểm từ bố mẹ.Trong OOP: Lớp con có thể sử dụng lại các thành phần của lớp cha mà không cần viết lại, và có thể bổ sung thêm các thuộc tính, phương thức mới hoặc ghi đè (override) các phương thức của lớp cha để thay đổi hành vi.class Animal():
 	def __init__(self, name):
 		self.name = name 
 	def get_name(self):
@@ -217,19 +116,7 @@ class Dog(Animal):
 		print(f"{self.name} say Woof")
 
 obj1 = Dog("Bunny") #-> Bunny say Woof
-
-
-Mặc dù có 2 speak nhưng lớp con là Dog sẽ ghi đè function speak lên lớp cha và output sẽ là “say Woof” thay vì “make a sounds”.
-
-super().__init__(name): Khi bạn tạo một lớp con và lớp con đó có __init__ riêng, bạn cần đảm bảo rằng lớp cha cũng được khởi tạo đúng cách. super().__init__() sẽ làm điều đó. Nó giúp tránh việc phải viết lại code khởi tạo đã có ở lớp cha.
-
-Hãy tưởng tượng bạn có các lớp:
-
-Nguoi: Có tên, và biết nói chuyện chung chung.
-
-HocSinh: Là một Nguoi, có thêm điểm số, và khi nói chuyện thì nói về việc học.
-
-class Nguoi:
+Mặc dù có 2 speak nhưng lớp con là Dog sẽ ghi đè function speak lên lớp cha và output sẽ là “say Woof” thay vì “make a sounds”.super().__init__(name): Khi bạn tạo một lớp con và lớp con đó có __init__ riêng, bạn cần đảm bảo rằng lớp cha cũng được khởi tạo đúng cách. super().__init__() sẽ làm điều đó. Nó giúp tránh việc phải viết lại code khởi tạo đã có ở lớp cha.Hãy tưởng tượng bạn có các lớp:Nguoi: Có tên, và biết nói chuyện chung chung.HocSinh: Là một Nguoi, có thêm điểm số, và khi nói chuyện thì nói về việc học.class Nguoi:
     def __init__(self, ten):
         self.ten = ten
         print(f"Một người tên '{self.ten}' đã được tạo ra.")
