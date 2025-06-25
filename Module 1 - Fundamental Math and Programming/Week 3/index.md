@@ -28,5 +28,5 @@ Các bài blogs của nhóm trong Week 3 Module 1 bạn có thể tìm đọc th
 
 1. [SQL trong Phân tích Dữ liệu](<Database - SQL.md>)
 3. [OOP - Classes and Objetcs](<OOP - Classes and Objects.md>)
-4. [Tìm hiểu về overator của class trong python](<Tìm hiểu về overator của class trong python.md>)
+4. [Tìm hiểu về overator của class trong python](<Tìm hiểu về operator của class trong python.md>)
 5. [Cấu trúc dữ liệu queue, stack, binary search tree](<Cấu trúc dữ liệu queue, stack và binary search tree.md>)
