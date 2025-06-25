@@ -58,6 +58,11 @@ my_object = MyClass(10)
 result = my_object(1, 2, name="Alice")
 
 print(result)
+# Output:
+# Đối tượng được tạo # Kết quả tạo ra từ constructor
+# Đối tượng đã được gọi! Giá trị của đối tượng: 10
+# Các đối số truyền vào: (1, 2) # *args sẽ trả về các đối số dưới dạng tuple
+# Các đối số từ khóa truyền vào: {"name": "Alice"} # **args sẽ trả về các đối số dưới dạng dict 
 ```
 Tác dung của __call__: đầu tiên vẫn gán object với class để gọi constructor, sau đó, gán trực tiếp biến đó với giá trị như một function đã được định nghĩa thay vì phải gọi như methods
 
