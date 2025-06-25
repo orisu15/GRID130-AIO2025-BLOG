@@ -1,4 +1,4 @@
-# Tìm hiểu về overator của class trong python
+# Tìm hiểu về operator của class trong python
 
 Hôm nay chúng ta sẽ tìm hiểu về cách sử dụng các operator methods của class như +,-,*,/,==. Rất vui là python đã hỗ trợ chúng ta các methods này rồi nên chúng ta chỉ cần overide lại logic là xong.
 
