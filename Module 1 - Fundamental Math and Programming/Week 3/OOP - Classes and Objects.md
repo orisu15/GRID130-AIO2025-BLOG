@@ -36,6 +36,8 @@ class Rectangle:
 
 my_rec = Rectangle(4, 7)
 ```
+**Instance** (thể hiện/đối tượng): Đây là một thuật ngữ trong OOP. Một instance (thể hiện) là một bản thể cụ thể, riêng lẻ của một lớp (class). Khi bạn định nghĩa một class (ví dụ Animal), bạn đang tạo một "khuôn mẫu" hoặc "bản thiết kế". Khi bạn tạo một object (đối tượng) từ class đó, bạn đang tạo ra một "bản sao" cụ thể dựa trên khuôn mẫu đó. Bản sao cụ thể đó chính là một instance.
+Ở đây **my_rec** là một instance
 Phương thức __call__: Khi bạn định nghĩa phương thức __call__ trong một lớp, và sau đó tạo một đối tượng từ lớp đó, bạn có thể "gọi" đối tượng đó bằng cách sử dụng dấu ngoặc đơn () như thể nó là một hàm. Khi bạn làm như vậy, Python sẽ tự động gọi phương thức __call__ của đối tượng đó.
 
 ```python
