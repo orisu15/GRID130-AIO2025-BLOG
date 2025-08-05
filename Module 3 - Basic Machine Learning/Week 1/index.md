@@ -1,11 +1,7 @@
-# Giới thiệu
----
-
 # Week 1
 ---
 
 ## Nội dung học trong tuần:
----
 
 - **Cơ bản về Pandas**
     - **Nội dung:**
@@ -26,6 +22,5 @@
 ---
 
 ## Blogs:
----
 
 **Các bài blogs của nhóm trong Week 1 Module 1 bạn có thể tìm đọc theo đường dẫn bên dưới đây:**
