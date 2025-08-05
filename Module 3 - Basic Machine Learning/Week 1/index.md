@@ -24,3 +24,5 @@
 ## Blogs:
 
 **Các bài blogs của nhóm trong Week 1 Module 1 bạn có thể tìm đọc theo đường dẫn bên dưới đây:**
+1. [Basic Pandas](Basic - pandas.md)
+
