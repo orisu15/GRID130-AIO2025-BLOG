@@ -53,3 +53,7 @@ Kết quả:
 # 5. 1 Số hàm khác
 
 1 số các hàm khác như **fillna, update, add,..** cũng hay được sử dụng, các bạn có thể tìm hiểu thêm để có thể xử lý dữ liệu 1 cách nhanh chóng khi làm việc.
+
+**Link tải file dữ liệu mẫu:** 
+
+[sample_students.csv](imgs/sample_students.csv)

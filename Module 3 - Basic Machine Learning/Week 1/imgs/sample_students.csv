@@ -1,0 +1,11 @@
+course,student,phone,age,sex
+Math,Alice,1234567890,20,F
+Math,Bob,2345678901,22,M
+Physics,Charlie,3456789012,21,M
+Chemistry,Diana,4567890123,23,F
+Biology,Eve,5678901234,20,F
+,Frank,6789012345,24,M
+Physics,Grace,7890123456,22,F
+,Henry,8901234567,21,M
+Biology,Ivy,9012345678,23,F
+Math,Jack,0123456789,20,M
