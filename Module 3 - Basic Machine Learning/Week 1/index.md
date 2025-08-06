@@ -25,5 +25,5 @@
 
 **Các bài blogs của nhóm trong Week 1 Module 1 bạn có thể tìm đọc theo đường dẫn bên dưới đây:**
 1. [Basic Pandas](Basic-pandas.md)
-2. [Các hàm hay dùng để xử lý dữ liệu trong pandas](Các hàm hay dùng để xử lý dữ liệu trong pandas.md)
+2. [Các hàm hay dùng để xử lý dữ liệu trong pandas](<Các hàm hay dùng để xử lý dữ liệu trong pandas.md>)
 
